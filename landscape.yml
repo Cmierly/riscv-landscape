@@ -511,13 +511,6 @@ landscape:
             organization:
               name: Chengdu Masscore Microelectronics Technology Co., Ltd.
           - item:
-            name: ChipFlow (member)
-            homepage_url: https://chipflow.io/
-            logo: chipflow.svg
-            description: ChipFlow is a company that provides a unique Python flow for microchip design, enabling electronic OEMs with no existing semiconductor design teams to design their own ICs.
-            organization:
-              name: ChipFlow
-          - item:
             name: Chipown (member)
             homepage_url: https://chipown.com.cn/
             logo: chipown.svg
@@ -580,7 +573,10 @@ landscape:
             name: Cycuity, Inc. (member)
             homepage_url: https://cycuity.com/
             logo: cycuity_inc.svg
-            description: Headquartered in San Diego, CA and founded in 2013, Tortuga Logic specializes in hardware security with technology that identifies security vulnerabilities in semiconductor designs.
+            description: |-
+              Cycuity was created as Tortuga Logic in 2014 by co-founders with a shared vision: to revolutionize cybersecurity with trusted microelectronics. Today, we remain committed to the belief that a secure design lifecycle is essential—from the design & verification chain into post-silicon. Silicon chip vulnerabilities like Spectre and Meltdown have the potential to exploit weaknesses in chip design and firmware, and cause irreparable damage to companies who build or rely on semiconductor technology. 
+
+              At Cycuity, we’re working towards a world where the products that enrich, inform, and protect our lives aren’t just secure—they’re backed by the confidence of hardware security assurance. Our security experts are dedicated to helping clients enhance their security measures, and through our products and consultation, we provide valuable best practices and a methodology for establishing a robust hardware security program.
             crunchbase: https://www.crunchbase.com/organization/tortuga-logic-inc
             twitter: https://twitter.com/cycuity
             extra:
@@ -694,7 +690,7 @@ landscape:
             name: ETAS GmbH (member)
             homepage_url: https://etas.com/
             logo: etas_gmbh.svg
-            description: ETAS specializes in providing comprehensive solutions for the development and implementation of software-defined vehicles, offering a range of products and services including vehicle basic software, middleware, development tools, cybersecurity solution...
+            description: ETAS provides advanced software and services that facilitate the development, testing, and integration of complex automotive systems, enhancing the performance and safety of vehicles through efficient data capture and analysis.
             organization:
               name: ETAS GmbH
           - item:
@@ -1054,7 +1050,7 @@ landscape:
             name: Maven Silicon Softech Private Limited (member)
             homepage_url: https://maven-silicon.com/
             logo: maven_silicon_softech_private_limited.svg
-            description: Setting Standards in VLSI Training
+            description: Setting Standards in VLSI Training.
             twitter: https://twitter.com/MavenSilicon
             organization:
               name: Maven Silicon Softech Private Limited
@@ -1373,7 +1369,7 @@ landscape:
             name: Rambus (member)
             homepage_url: https://rambus.com/
             logo: rambus.svg
-            description: Rambus creates cutting-edge semiconductor and IP products, spanning memory and interfaces to security, smart sensors, and lighting. Their chips, customizable IP cores, architecture licenses, tools, services, training, and innovations improve the competitive advantage of Rambus customers. Rambus collaborate with the industry, partnering with leading ASIC and SoC designers, foundries, IP developers, EDA companies and validation labs. Their products are integrated into tens of billions of devices and systems, powering and securing diverse applications, including Big Data, Internet of Things (IoT), mobile, consumer and media platforms. At Rambus, Rambus are makers of better.
+            description: Rambus is a provider of industry-leading chips and silicon IP making data faster and safer. With 35 years of advanced semiconductor experience, we are a pioneer in high-performance memory solutions that solve the bottleneck between memory and processing for data-intensive systems. Whether in the cloud, at the edge or in your hand, real-time and immersive applications depend on data throughput and integrity. Rambus products and innovations deliver the increased bandwidth, capacity and security required to meet the world’s data needs and drive ever-greater end-user experiences. For more information, visit rambus.com.
             crunchbase: https://www.crunchbase.com/organization/rambus
             twitter: https://twitter.com/rambusinc
             extra:
@@ -1421,13 +1417,6 @@ landscape:
             twitter: https://twitter.com/RockchipsCES
             extra:
               linkedin_url: https://www.linkedin.com/company/rockchip
-          - item:
-            name: RT-Thread (member)
-            homepage_url: https://rt-thread.com/
-            logo: rt_thread.svg
-            description: RT-Thread born in 2006, it's an open-source, neutral, and community-based real-time operating system (RTOS). The software has the characteristics of very low resource occupancy, high reliability, high scalability, can be greatly used in sensing nodes, wireless connection chips and many resource-constrained scenes, also widely applied in gateway, IPC, smart speakers, and many other high-performance applications.
-            organization:
-              name: RT-Thread
           - item:
             name: RTX (member)
             homepage_url: https://rtx.com/
@@ -1531,7 +1520,7 @@ landscape:
             name: Semidynamics Technology Services, S.L. (member)
             homepage_url: https://semidynamics.com/
             logo: semidynamics_technology_services_s_l.svg
-            description: SemiDynamics specializes in microprocessor architecture, front-end design and verification services, with a special focus in RISC-V development, both for ASICs and FPGA solutions. With an extraordinary team with fifteen years of experience in the semiconductor industry, we can help you succeed in your next project, from specification to design and verification. We can also partner with your in-house team and provide staff augmentation services, both on-site and remotely.
+            description: Semidynamics is a fabless semiconductor company based in Barcelona, focused on advancing high-performance AI inference through next-generation processor technology. With deep expertise in RISC-V architecture, Semidynamics brings a unique foundation to the consortium; purpose-built for scalable, efficient AI compute.
             twitter: https://twitter.com/semidynamics
             organization:
               name: Semidynamics Technology Services, S.L.
@@ -1633,6 +1622,13 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/silansys-semiconductor
           - item:
+            name: Simplex Micro (member)
+            homepage_url: https://simplexmicro.com/
+            logo: simplex_micro.svg
+            description: SimplEx Micro is a technology company specializing in developing scalable microprocessor and vector processor technology for uncompromising performance. With locations in Austin, Texas and Vietnam, SimplEx Micro is dedicated to pushing the boundaries o...
+            organization:
+              name: Simplex Micro
+          - item:
             name: SMD Semiconductor Sdn Bhd (member)
             homepage_url: https://smdsemiconductor.com/
             logo: smd_semiconductor_sdn_bhd.svg
@@ -1661,11 +1657,19 @@ landscape:
             name: SoundAI Technology Co., Ltd. (member)
             homepage_url: https://soundai.com/
             logo: soundai_technology_co_ltd.svg
-            description: Welcome to the official SoundAI Twitter account. SoundAI is a leading platform provider that combines acoustic and AI.
+            description: |-
+              SoundAI specializes in Acoustic AI, pioneering a physics-informed acoustic world model. This model is powered by our three core algorithms—Acoustic Perception, Acoustic Expression, and Acoustic Detection—designed to master the complexities of perception, understanding, and generation in far-field acoustic environments. Our technology extends beyond sound to enable deep understanding and intelligent decision-making regarding environments, emotions, events, and devices. We deliver value through our unique "AI Algorithm + AI Hardware + AI Subscription" service model, offering open SDKs and APIs, a full suite of hardware from acoustic arrays and AI chips to smart terminals, all backed by robust multi-modal cloud services. Our competitive edge is built on a foundation of "Data-Algorithm-Standard," supported by over 1 PB of proprietary data, 2,000+ global patents, and 150+ industry standards, fueling the widespread adoption of Acoustic AI in consumer electronics, healthcare, and beyond.
+
+              Founded in 2016 by Professor Chen Xiaoliang, SoundAI has roots in the prestigious Institute of Acoustics at the Chinese Academy of Sciences and a team of talent. As a national-level specialized and innovative enterprise, we are entrusted with leading national science and engineering challenges and spearheading major AI projects in Beijing. Our achievements are highlighted by our inclusion in the "Sci-Tech Innovation China" index and other industry lists, and we foster innovation through our Beijing Enterprise Technology Center and six interdisciplinary joint labs. With core algorithms and models certified against national security standards, we have served over 200 million users and are building a global Acoustic AI ecosystem with partners like Infineon, RISC-V, Bosch, NVIDIA, and Google. Our vision extends to the future, as we push the boundaries of Acoustic AI into next-generation fields, including unmanned systems, autonomous driving, high-end acoustic equipment, and acousto-coded brain-computer interfaces. Our mission is "Making Things Smarter," and our vision is "Smarter AI, Better Life."
+
+
+              Official Website: www.soundai.com
+              Business Development: bd@soundai.com 
+              Media Relations: pr@soundai.com 
+              Careers/HR: hr@soundai.com 
+              Contact Number: 400-018-9666
+            crunchbase: https://www.crunchbase.com/organization/soundai
             twitter: https://twitter.com/SoundAI_Ltd
-            organization:
-              name: SoundAI Technology Co., Ltd.
-              linkedin: https://www.linkedin.com/company/%E5%8C%97%E4%BA%AC%E5%A3%B0%E6%99%BA%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
             extra:
               linkedin_url: https://www.linkedin.com/company/%E5%8C%97%E4%BA%AC%E5%A3%B0%E6%99%BA%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
           - item:
@@ -2834,7 +2838,7 @@ landscape:
             name: iPXE (member)
             homepage_url: https://ipxe.org/
             logo: ipxe.svg
-            description: iPXE is the leading open source network boot firmware that offers a full PXE implementation with enhanced features. It allows users to replace existing PXE ROM on network cards or chainload into iPXE for advanced functionalities without re-flashing. iP...
+            description: iPXE develops iPXE, a leading open source network boot firmware that offers a comprehensive PXE implementation with enhanced features, allowing users to replace existing PXE ROMs or chainload into iPXE for added functionality without the need for refla...
             organization:
               name: iPXE
           - item:
